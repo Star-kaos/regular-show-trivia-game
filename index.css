@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(Assests/regBack.jpg);
+    background-size: cover;
+  }
+  
+  .contentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .questionButtonsDiv {
+    display: flex;
+  }
+  
+  #elementDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  #endPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  /* titles */
+  @font-face {
+    font-family: iceCreamParty;
+    src: url(Assests/IceCreamParty.ttf);
+  }
+  
+  @font-face {
+    font-family: iceCreamPartySolid;
+    src: url(Assests/IceCreamPartySolid.ttf);
+  }
+  
+  @font-face {
+    font-family: rainMaker;
+    src: url(Assests/The\ Rainmaker.otf);
+  }
+  
+  .titleDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #title {
+    color: white;
+    font-family: rainMaker;
+    font-size: 100px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+  }
+  
+  #subTitle {
+    margin-top: 5px;
+    color: white;
+    font-family: rainMaker;
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  
+  #questionHeading {
+    color: white;
+    font-family: rainMaker;
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #scoreHeading {
+    color: white;
+    font-family: iceCreamPartySolid;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0px;
+  }
+  
+  #endingHeading {
+    color: white;
+    font-family: rainMaker;
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* buttons */
+  #startBtn {
+    color: rgb(17, 131, 184);
+    background-color: transparent;
+    border: none;
+    font-family: iceCreamPartySolid;
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  
+  #startBtn:hover {
+    color: rgb(13, 79, 110);
+
+  }
+  
+  #qBtns {
+    color: rgb(17, 131, 184);
+    background-color: transparent;
+    border: none;
+    font-family: iceCreamPartySolid;
+    font-size: 50px;
+    margin-top: 5px;
+  }
+  
+  #qBtns:hover {
+    color: rgb(109, 209, 255);
+
+  }
+  
+  #nextBtn {
+    color: rgb(17, 131, 184);
+    background-color: transparent;
+    border: none;
+    font-family: iceCreamPartySolid;
+    margin: 0px;
+    font-size: 52px;
+  }
+  
+  #nextBtn:hover {
+    color: rgb(13, 79, 110);
+
+  }
+  
+  /* hidden */
+  #hide {
+    display: none;
+  }
+  
+  /* correct - wrong */
+  #correct {
+    color: green;
+    font-family: rainMaker;
+    font-size: 80px;
+  }
+  
+  #wrong {
+    color: red;
+    font-family: rainMaker;
+    font-size: 80px;
+  }
+  
