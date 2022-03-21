@@ -76,7 +76,7 @@ function checkIfCorrect(event, correctAnswer, elementDiv) {
     score += 100;
     correct();
 
-    if (counter === 2) {
+    if (counter === 11) {
       gameOver();
       return;
     }
@@ -89,7 +89,7 @@ function checkIfCorrect(event, correctAnswer, elementDiv) {
     score -= 100;
     wrong();
 
-    if (counter === 2) {
+    if (counter === 11) {
       gameOver();
       return;
     }
@@ -161,7 +161,7 @@ function gameOver() {
 
 // next BTN
 function next() {
-  endPage.remove();
+  window.location.reload();
 }
 
 // questionArray
@@ -183,7 +183,7 @@ var questionArray = [
   },
   {
     questionString:"What was the name of the movie that gave Rigby nightmares?",
-    answers: [`Ello Gov'nor`, "It", "Rocky 4"],
+    answers: [`Ello Gov'nor`, "Rocky 4", "It"],
     correctAnswer: `Ello Gov'nor`
   },
   {
